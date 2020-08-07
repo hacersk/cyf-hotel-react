@@ -3,7 +3,7 @@ import moment from "moment";
 //step 5& 6
 const SearchResult = props => {
   return (
-    <table class="table">
+    <table className="table">
       <thead>
         <tr>
           <th scope="col">id</th>
@@ -14,7 +14,7 @@ const SearchResult = props => {
           <th scope="col">room id</th>
           <th scope="col">check in date</th>
           <th scope="col">check out date</th>
-          <th scope="col">Days</th>
+          <th scope="col">days</th>
         </tr>
       </thead>
       <tbody>

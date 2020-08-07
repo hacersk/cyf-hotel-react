@@ -1,5 +1,5 @@
 import React from "react";
-import Restaurant from "./Restaurant"; //Step8
+import Restaurant from "./Restaurant"; /*Step8*/
 import Bookings from "./Bookings";
 import "./App.css";
 

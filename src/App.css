@@ -58,8 +58,16 @@ td {
 }
 .results {
   padding-top: 15px;
+  text-align: center;
 }
-
+.orders {
+  list-style-type: none;
+  display: inline-flex;
+}
+.orders li {
+  margin-top: 10px;
+  padding-left: 10px;
+}
 .footer {
   padding-top: 20px;
   text-align: center;
