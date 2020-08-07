@@ -1,6 +1,9 @@
 import React from "react";
 import Restaurant from "./Restaurant"; /*Step8*/
 import Bookings from "./Bookings";
+import glasgow from "./pics/glasgow.jpg";
+import manchester from "./pics/manchester.jpg";
+import london from "./pics/london.jpg";
 import "./App.css";
 
 const App = () => {
@@ -39,7 +42,7 @@ const TuristInfoCard = () => {
     <div className="cards">
       <div className="card">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/9/92/City_of_Glasgow_at_night%2C_Scotland.jpg"
+          src={glasgow} //"https://upload.wikimedia.org/wikipedia/commons/9/92/City_of_Glasgow_at_night%2C_Scotland.jpg"
           className="card-img-top"
           alt="Glasgow"
         />
@@ -51,7 +54,7 @@ const TuristInfoCard = () => {
       </div>
       <div className="card">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/7/77/Manchester_Sky_Crop.jpg"
+          src={manchester} //"https://upload.wikimedia.org/wikipedia/commons/7/77/Manchester_Sky_Crop.jpg"
           className="card-img-top"
           alt="Manchester"
         />
@@ -63,7 +66,7 @@ const TuristInfoCard = () => {
       </div>
       <div className="card">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Buckingham_Palace%2C_London_-_April_2009.jpg"
+          src={london} //"https://upload.wikimedia.org/wikipedia/commons/b/b4/Buckingham_Palace%2C_London_-_April_2009.jpg"
           className="card-img-top"
           alt="London"
         />
