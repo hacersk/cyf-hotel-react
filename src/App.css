@@ -3,13 +3,16 @@
 }
 
 .App-logo {
+  width: 20px;
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 20px;
+  padding-left: 5px;
 }
 
 .App-header {
   background-color: #222;
   height: 50px;
+  width: auto;
   padding: 20px;
   color: white;
   text-align: left;
@@ -25,6 +28,14 @@
 .App-content {
   padding-top: 20px;
   font-size: large;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
@@ -42,7 +53,9 @@
 tr {
   color: #5b5757;
 }
-
+td {
+  padding-left: 10px;
+}
 .results {
   padding-top: 15px;
 }
@@ -50,8 +63,18 @@ tr {
 .footer {
   padding-top: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
 }
-
+.footer li {
+  padding-left: 6px;
+}
 .card {
   width: 18rem;
+  margin-left: 10px;
+}
+.card img {
+  height: 12rem;
 }
