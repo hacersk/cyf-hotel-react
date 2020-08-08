@@ -8,6 +8,7 @@ const Bookings = () => {
   const search = searchVal => {
     console.info("TO DO!", searchVal);
   };
+  //step15
   useEffect(() => {
     fetch("https://cyf-react.glitch.me")
       .then(res => res.json())
