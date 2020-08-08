@@ -27,11 +27,20 @@ const App = () => {
 const Heading = () => {
   return (
     <header className="App-header">
-      CYF Hotel{" "}
-      <img
-        src="https://image.flaticon.com/icons/svg/139/139899.svg"
-        className="App-logo"
-      />{" "}
+      <div>
+        CYF Hotel
+        <img
+          src="https://image.flaticon.com/icons/svg/139/139899.svg"
+          className="App-logo"
+          alt="logo-img"
+        />
+      </div>
+      <div>
+        <h1>
+          {" "}
+          Welcome to <i>CYF HOTEL</i>
+        </h1>
+      </div>
     </header>
   );
 };
